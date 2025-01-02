@@ -4,6 +4,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 from docxtpl import DocxTemplate
 
+st.title("📄 Cartas por EAF V.1.0")
+
 df_cartas_cuerpo = pd.DataFrame(
     [
         {"EAF": "554-2024", "Nombre": "Nombre del EAF", "Fecha falla": "23-11-2024", "Hora falla": "01:03", "Coordinado": "Transelec S.A."},
